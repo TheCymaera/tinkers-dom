@@ -5,11 +5,11 @@ export declare function templateFromHTML(html: string): HTMLTemplateElement;
 /**
  * Create elements from an HTML string.
  */
-export declare function elementsFromHTML(html: string): Element[];
+export declare function elementsFromHTML(html: string): HTMLElement[];
 /**
  * Create element from an HTML string.
  */
-export declare function elementFromHTML(html: string): Element | undefined;
+export declare function elementFromHTML(html: string): HTMLElement;
 /**
  * Create document fragment from an HTML string.
  */

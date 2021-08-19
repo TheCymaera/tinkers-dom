@@ -5,7 +5,7 @@ Tinker's DOM is a JavaScript/TypeScript library for DOM manipulation.
 
 ## Installation
 Install via NPM.
-```console
+```shell
 npm install tinkers-dom
 ```
 
@@ -31,7 +31,7 @@ const fragment = tDom.fragmentFromNodes(element1, element2, element3);
 
 ### Manipulate
 ```typescript
-// get elements by class and remove class.
+// get elements by class and remove class
 const elements = tDom.getElementsByClassAndRemoveClass(document.body, "js-hook");
 
 // move elements

@@ -13,14 +13,14 @@ export function templateFromHTML(html: string) {
 export function elementsFromHTML(html: string) {
 	const div = document.createElement("div");
 	div.innerHTML = html;
-	return Array.from(div.children);
+	return Array.from(div.children) as HTMLElement[];
 }
 
 /**
  * Create element from an HTML string.
  */
 export function elementFromHTML(html: string) {
-	return elementsFromHTML(html)[0];
+	return elementsFromHTML(html)[0] as HTMLElement;
 }
 
 /**
